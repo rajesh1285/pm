@@ -31,7 +31,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+# for responsive styling
 gem 'bootstrap'
+# A modern CSS framework based on Flexbox.
+gem "bulma-rails"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
